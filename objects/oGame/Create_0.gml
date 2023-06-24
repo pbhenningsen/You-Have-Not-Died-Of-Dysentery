@@ -1,0 +1,12 @@
+draw_set_font(fntRetro);
+is_travelling   = false;
+get_pace();
+get_ration();
+set_next_location();
+tmp_alarm_stop  = 0;
+tmp_alarm_start = 0;
+isstart_travel  = true;
+pause_          = false;
+has_beries      = false;
+has_theif		= false;
+days_			= 0;

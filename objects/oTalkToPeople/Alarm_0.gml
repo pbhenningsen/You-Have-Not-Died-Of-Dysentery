@@ -1,0 +1,1 @@
+oText.pageindex_ = global.textindex_;

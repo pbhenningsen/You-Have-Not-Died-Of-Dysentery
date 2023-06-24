@@ -1,0 +1,31 @@
+stringindex_ = 0;
+global.textindex_ = 0;
+global.Text_="";
+var _wheel = clamp(global.wagonwheels,0,9999);
+var _axle  = clamp(global.wagonaxles,0,9999);
+var _tang  = clamp(global.wagontang,0,9999);
+
+var _arrayindex = 0;
+create_text(_arrayindex,texttype.simple, "Your Supplies");
+create_text(_arrayindex,texttype.simple, " ");
+create_text(_arrayindex,texttype.simple, "oxen              " + string(global.oxen));
+create_text(_arrayindex,texttype.simple, "sets of clothing  " + string(global.clothing));
+create_text(_arrayindex,texttype.simple, "bullets           " + string(global.ammunition));
+create_text(_arrayindex,texttype.simple, "wagon wheels      " + string(_wheel));
+create_text(_arrayindex,texttype.simple, "wagon axles       " + string(_axle));
+create_text(_arrayindex,texttype.simple, "wagon tongues     " + string(_tang));
+create_text(_arrayindex,texttype.simple, "pounds of food    " + string(global.food));
+create_text(_arrayindex,texttype.simple, "toilet parchment   " + string(global.parchment));
+create_text(_arrayindex,texttype.simple, "money left        " + string(global.Money_));
+create_text(_arrayindex,texttype.simple, "");
+create_text(_arrayindex,texttype.simple, "");
+create_text(_arrayindex,texttype.simple, "");
+create_text(_arrayindex,texttype.simple, "");
+create_text(_arrayindex,texttype.simple, "");
+create_text(_arrayindex,texttype.simple, "");
+create_text(_arrayindex,texttype.simple, "");
+create_text(_arrayindex,texttype.simple, "");
+create_text(_arrayindex,texttype.simple, "");
+create_text(_arrayindex,texttype.center, "   Press SPACE BAR to continue");
+
+stringindex_ = 0;
