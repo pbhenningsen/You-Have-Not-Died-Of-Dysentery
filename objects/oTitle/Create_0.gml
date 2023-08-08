@@ -22,7 +22,7 @@ create_text(global.textindex_,texttype.simple, "");
 create_text(global.textindex_,texttype.simple, "");
 
 stringindex_ = 0;
-global.textindex_++;
+global.textindex_++;//here, the stringindex_ has been reset to 0, but the globaltextindex has been advanced by 1
 
 create_text(global.textindex_,texttype.simple, "");
 create_text(global.textindex_,texttype.simple, "");

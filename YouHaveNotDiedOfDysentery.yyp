@@ -49,7 +49,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"sWagonCross1","path":"sprites/sWagonCross1/sWagonCross1.yy",},},
@@ -228,7 +228,6 @@
     {"id":{"name":"oHuntInstructions","path":"objects/oHuntInstructions/oHuntInstructions.yy",},},
     {"id":{"name":"scrText","path":"scripts/scrText/scrText.yy",},},
     {"id":{"name":"sFortLaramie","path":"sprites/sFortLaramie/sFortLaramie.yy",},},
-    {"id":{"name":"scrScreenShake","path":"scripts/scrScreenShake/scrScreenShake.yy",},},
     {"id":{"name":"oRiverTop","path":"objects/oRiverTop/oRiverTop.yy",},},
     {"id":{"name":"oAnimals","path":"objects/oAnimals/oAnimals.yy",},},
     {"id":{"name":"sndTheIntro","path":"sounds/sndTheIntro/sndTheIntro.yy",},},

@@ -91,7 +91,7 @@ function create_rstops(_index,_sprite,_text1,_text2,_text3,_text4,_audio){
 
 function create_text(_index,_type,_string){
 	global.Text_[_index][stringindex_][textstate.thestring] = _string;	
-	global.Text_[_index][stringindex_++][textstate.thetype] = _type;
+	global.Text_[_index][stringindex_++][textstate.thetype] = _type;//Here's what's going on with this whole stringindex_++ thing...it's actually setting the stage for the NEXT time that the create_text function is called, so that it will store the next string and type in the subsequent position. The reason for this is that it's using the POSTFIX INCREMENT OPERATOR, which means the two ++ come after the variable, meaning that the current value of stringindex_ is used in the code, and THEN it gets incremented. If you had put ++ BEFORE stringindex_, it would have stored s
 }
 
 function create_not(_type,_string){

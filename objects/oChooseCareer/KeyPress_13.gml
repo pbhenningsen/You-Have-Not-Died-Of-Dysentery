@@ -13,7 +13,7 @@ with oText{
 			room_goto(rmChooseName);	
 	        break;
 	    case "4":
-	        global.textindex_ 	=1;
+	        global.textindex_ = 1;
 			oText.pageindex_ = global.textindex_;	
 	        break;
 		default:

@@ -159,7 +159,6 @@
     {"name":"rmGameOver2","order":1,"path":"rooms/rmGameOver2/rmGameOver2.yy",},
     {"name":"oHuntInstructions","order":9,"path":"objects/oHuntInstructions/oHuntInstructions.yy",},
     {"name":"sFortLaramie","order":8,"path":"sprites/sFortLaramie/sFortLaramie.yy",},
-    {"name":"scrScreenShake","order":4,"path":"scripts/scrScreenShake/scrScreenShake.yy",},
     {"name":"oAnimals","order":6,"path":"objects/oAnimals/oAnimals.yy",},
     {"name":"sndTheIntro","order":24,"path":"sounds/sndTheIntro/sndTheIntro.yy",},
     {"name":"oTitle2","order":16,"path":"objects/oTitle2/oTitle2.yy",},

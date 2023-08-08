@@ -12,10 +12,10 @@ function Input_Text(_text_var){
 	else if  key_any  and (string_length(_text_var) < 20){
 		var __string = string(keyboard_string);	
 		if __string != "" {
-			_text_var = string_insert(__string,_text_var,cursorPos_+1);
+			_text_var = string_insert(__string,_text_var,cursorPos_+1);//this line of code is really hurting my brain, but it basically just makes the thing you typed appear where it's supposed to and moves the cursor. Just don't quite ask me how...
 			cursorPos_++;
 		}
-		keyboard_string = "";
+		keyboard_string = "";//This basically takes the key you pressed, and displays it while also moving the cursor to a new position.
 	}
 	if keyboard_check_pressed(vk_delete){
 		_text_var = string_delete(_text_var,cursorPos_+1,1);
@@ -29,7 +29,7 @@ function Input_Text(_text_var){
 	
 	cursorPos_ = clamp(cursorPos_,0,string_length(_text_var));
 	
-	return _text_var;
+	return _text_var;//Here, the manipulated text is being RETURNED AT THE END OF THE FUNCTION, and so _text_var has been transformed. The result of this return function is what's then stored in _tempstring.
 }
 
 
